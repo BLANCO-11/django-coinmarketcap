@@ -77,18 +77,18 @@ Once the server is running, you can access the API at `http://127.0.0.1:8000/`.
 
 ### API Endpoints
 
-- `/api/coins/` - Retrieve the list of cryptocurrencies.
-- `/api/coins/<coin_id>/` - Retrieve detailed information for a specific cryptocurrency.
+- `/api/taskmanager/start_scraping` - [POST] Payload Input url which are names of the crypto coins (['bitcoin', 'cardano']) request is to be run for these coins parallely and returns back a job id.
+- `/api/taskmanager/scraping_status/<job_id>` - [GET] From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job.
 
 ## Images
 
 Below are some proof-of-working images of the application. Replace the URLs with your image paths.
 
-1. ![Image 1](https://imgur.com/A1VdVdo)
-2. ![Image 2](https://imgur.com/uih8Sze)
-3. ![Image 3](https://imgur.com/U6T5q76)
-4. ![Image 4](https://imgur.com/v78lYqK)
-5. ![Image 5](https://imgur.com/C4J53Id)
-6. ![Image 6](https://imgur.com/S1oVq1L)
-7. ![Image 7](https://imgur.com/oWTHKDK)
+1. ![Image 1](https://i.imgur.com/A1VdVdo.png)
+2. ![Image 2](https://i.imgur.com/uih8Sze.png)
+3. ![Image 3](https://i.imgur.com/U6T5q76.png)
+4. ![Image 4](https://i.imgur.com/v78lYqK.png)
+5. ![Image 5](https://i.imgur.com/C4J53Id.png)
+6. ![Image 6](https://i.imgur.com/S1oVq1L.png)
+7. ![Image 7](https://i.imgur.com/oWTHKDK.png)
 
